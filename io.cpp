@@ -23,7 +23,7 @@ int days(int startYear, int endYear, int startMonth, int endMonth, int startDay,
 }
 
 double dayProfit(int rate, int money = 1) {
-	return money * rate / 365;
+	return  money * rate / 365.0;
 }
 
 int calulations(int money, int rate, int totalDays) {

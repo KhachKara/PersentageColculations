@@ -19,7 +19,7 @@ int main () {
 
 	int totalDays = days(startYear, endYear, startMonth, endMonth, startDay, endDay);
 
-	cout << totalDays << " days" <<'\n';
+	cout << totalDays << (totalDays > 1 ? " days" : " day") <<'\n';
 	cout << "Enter amount of investments: " <<'\n';
 	int money;
 	cin >> money;
@@ -30,5 +30,7 @@ int main () {
 	double dayProfit(int rate, int money = 1);
 	cout << "Profit per day: " << dayProfit(rate) << '\n';
 	cout << "Profit: " << calulations(money, rate, totalDays) << '\n';
+	
+	system("puase>null");
 	return 0;
 }
