@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1654463563 source:d:\khach\myprojects\cpp\persentagecolculations\persentagecolculation\main.cpp
+	"../inputOutput.h"
+	<cstdlib>
+	<iostream>
+
+1654462098 d:\khach\myprojects\cpp\persentagecolculations\inputoutput.h
+
+1654463452 source:d:\khach\myprojects\cpp\persentagecolculations\inputoutput.cpp
+	"inputOutput.h"
+	<iostream>
+

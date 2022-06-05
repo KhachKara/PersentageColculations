@@ -1,18 +1,5 @@
-[Editors]
-Order=0,1,2
-Focused=1
-[Editor_0]
-CursorCol=1
-CursorRow=30
-TopLine=16
-LeftChar=1
-[Editor_1]
-CursorCol=2
-CursorRow=23
-TopLine=16
-LeftChar=1
-[Editor_2]
-CursorCol=7
-CursorRow=4
-TopLine=1
-LeftChar=1
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="default" />
+</CodeBlocks_layout_file>
