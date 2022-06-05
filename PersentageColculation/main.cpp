@@ -12,6 +12,5 @@ int main() {
     cout << '\n';
     calculatePersentage(investments, rate, days);
 
-    system("pause>null");
     return 0;
 }

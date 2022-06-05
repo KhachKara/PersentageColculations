@@ -10,3 +10,14 @@
 	"inputOutput.h"
 	<iostream>
 
+1654466241 source:/home/khach/Programming/CPP/PersentageColculations/inputOutput.cpp
+	"inputOutput.h"
+	<iostream>
+
+1654466324 /home/khach/Programming/CPP/PersentageColculations/inputOutput.h
+
+1654465477 source:/home/khach/Programming/CPP/PersentageColculations/PersentageColculation/main.cpp
+	"../inputOutput.h"
+	<cstdlib>
+	<iostream>
+
