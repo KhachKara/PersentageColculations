@@ -16,12 +16,12 @@ void getParameters(int& investments, int& rate, int& days) {
     cin >> days;
 }
 
-double calculatePersentage(const int& investments, const int& rate, const int& days) {
+double calculatePersentage(const int investments, const int rate, const int days) {
     double sum = investments;
     double totalProfit = 0;
     for(int i = 1; i <= days; ++i) {
-        double profitPerday = sum * rate / 100 / 365.0;
-        sum += profitPerday;
+        double profitPerDay = sum * rate / 100 / 365.0;
+        sum += profitPerDay;
         cout << "Day " << i << ": " << sum << '\n';
     }
     totalProfit = sum - investments;

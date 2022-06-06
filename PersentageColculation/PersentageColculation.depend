@@ -10,3 +10,14 @@
 	"inputOutput.h"
 	<iostream>
 
+1654495819 source:c:\users\karapetian\myprojects\c++\percentagecolcolations\inputoutput.cpp
+	"inputOutput.h"
+	<iostream>
+
+1654495976 c:\users\karapetian\myprojects\c++\percentagecolcolations\inputoutput.h
+
+1654495688 source:c:\users\karapetian\myprojects\c++\percentagecolcolations\persentagecolculation\main.cpp
+	"../inputOutput.h"
+	<cstdlib>
+	<iostream>
+
