@@ -6,13 +6,13 @@ void getParameters(int& investments, int& rate, int& days) {
     investments = 0;
     rate = 0;
     days = 0;
-    cout << "Investments" << " ";
+    cout << "How much investments you'll make?" << " ";
     cin >> investments;
 
-    cout << "Rate" << " ";
+    cout << "What the rate?" << " ";
     cin >> rate;
 
-    cout << "Days" <<" ";
+    cout << "How many days?" <<" ";
     cin >> days;
 }
 
@@ -26,5 +26,6 @@ double calculatePersentage(int investments, int rate, int days) {
     }
     totalProfit = sum - investments;
     cout << '\n';
-    cout << "Total Profit: " << totalProfit<< '\n';
+    cout << "Total profit is: " << totalProfit<< '\n';
+    return totalProfit;
 }
