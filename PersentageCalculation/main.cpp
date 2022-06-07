@@ -10,7 +10,7 @@ int main() {
 
     getParameters(investments, rate, days);
     cout << '\n';
-    calculatePersentage(investments, rate, days);
+    calculatePercentage(investments, rate, days);
 
     system("pause>null");
     return 0;

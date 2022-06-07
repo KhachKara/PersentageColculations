@@ -2,7 +2,8 @@
 #include<iostream>
 using namespace std;
 
-void getParameters(int& investments, int& rate, int& days) {
+void getParameters(int& investments, int& rate, int& days)
+{
     investments = 0;
     rate = 0;
     days = 0;
@@ -16,10 +17,12 @@ void getParameters(int& investments, int& rate, int& days) {
     cin >> days;
 }
 
-double calculatePersentage(const int investments, const int rate, const int days) {
+double calculatePercentage(const int investments, const int rate, const int days)
+{
     double sum = investments;
     double totalProfit = 0;
-    for(int i = 1; i <= days; ++i) {
+    for(int i = 1; i <= days; ++i)
+    {
         double profitPerDay = sum * rate / 100 / 365.0;
         sum += profitPerDay;
         cout << "Day " << i << ": " << sum << '\n';
